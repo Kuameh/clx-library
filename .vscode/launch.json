@@ -1,0 +1,29 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": true, // Change the stopAtEntry value to true to cause the debugger to stop on the main method when you start debugging.
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\mingw64\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file" // The preLaunchTask setting is used to specify task to be executed before launch. Make sure it is consistent with the tasks.json file label setting
+    }
+  ]
+}

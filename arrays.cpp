@@ -94,7 +94,7 @@ int main() {
     std::cout << "Chose an option" << std::endl;
     std::cout << "1. Matrix Addition" << std::endl;
     std::cout << "2. Matrix Subtraction" << std::endl;
-    std::cout << "2. Scalar Multi" << std::endl;
+    std::cout << "3. Scalar Multipilcation" << std::endl;
     std::cout << "0. Quit" << std::endl << "> ";
     std::cin >> choice;
 
@@ -110,6 +110,13 @@ int main() {
     case 2:
         std::cout << "\nMatrix A - B:" << std::endl;
         subtractor(matrix_a, matrix_b);
+        break;
+
+    case 3:
+        std::cout << "\nInput the scalar" << std::endl;
+        std::cin >> scalar;
+        std::cout << scalar << " x Matrix A:" << std::endl;
+        scalar_multiplication(matrix_a);
         break;
 
     default:
