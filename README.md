@@ -1,8 +1,8 @@
-# clxlib
+# clx-library
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-A simple library to help handle complex number arithmetic in C++ code.\
+A simple library to help handle complex number arithmetic in C++ code.
 
 In this code I'm trying to perform complex number arithmetic.
 Example z=(2,3) and w=(3,5). normally you perform
