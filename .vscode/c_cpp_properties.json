@@ -3,6 +3,7 @@
     {
       "name": "GCC",
       "includePath": ["${workspaceFolder}/**"],
+      "forcedInclude": ["${workspaceFolder}/complex.h"],
       "defines": ["_DEBUG", "UNICODE", "_UNICODE"],
       "compilerPath": "C:/MinGW/mingw64/bin/g++.exe",
       "cStandard": "gnu17",
