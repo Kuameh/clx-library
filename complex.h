@@ -1,9 +1,9 @@
-#include <iostream>
-#include <iomanip>
+#pragma once
+
 #include <string>
 #include <cmath>
 
-class Complex{
+class complex{
     private: 
         double real;
         double img;
@@ -12,13 +12,13 @@ class Complex{
     
     public:
         // default constractor
-        Complex(){
+        complex(){
             real = 0;
             img = 0;
         }
-        
+
         //constructor
-        Complex(double r, double i){
+        complex(double r, double i){
             real = r;
             img = i;
 
@@ -33,7 +33,7 @@ class Complex{
         void print();
         void print(std::string frm);
 
-                                    /* Getters */
+        /* Getters */
         double get_real(); // Returns value of the real part
 
         double get_img(); // Returns value of the imaginary part
@@ -46,18 +46,20 @@ class Complex{
                                 /* Operator Overloaders */
 
         //addition operator overloading
-        Complex operator +(Complex c);
+        complex operator +(complex c);
 
         // Conjugate operator: returns the conjugat of a complex number
-        Complex operator -();
+        complex operator --();
 
+        // Negator
+        complex operator -();
         //Subtraction operator
-        Complex operator -(Complex c);
+        complex operator -(complex c);
 
         // Multiplication operator
-        Complex operator *(Complex c);
+        complex operator *(complex c);
 
-        Complex operator /(Complex c);
+        complex operator /(complex c);
 
 
 };

@@ -7,9 +7,10 @@
       "command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
       "args": [
         "-g",
-        "${file}",
+        "${fileDirname}\\**.cpp",
         "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+        "${fileDirname}\\main.exe"
+        // "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
