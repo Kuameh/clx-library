@@ -106,3 +106,14 @@
 
         return temp;
     }
+
+    bool complex::operator ==(complex c){
+        complex temp;
+        
+        if (temp.real == c.real && temp.img == c.img)
+        {
+            return true;
+        }
+        
+        return false;
+    };

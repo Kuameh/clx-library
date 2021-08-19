@@ -5,10 +5,7 @@
 
 class complex{
     private: 
-        double real;
-        double img;
-        double mod;
-        double arg;
+        double real, img, mod, arg;
     
     public:
         // default constractor
@@ -44,7 +41,6 @@ class complex{
 
 
                                 /* Operator Overloaders */
-
         //addition operator overloading
         complex operator +(complex c);
 
@@ -59,7 +55,11 @@ class complex{
         // Multiplication operator
         complex operator *(complex c);
 
+        // Division operator
         complex operator /(complex c);
+
+        // Comparision operator
+        bool operator ==(complex c);
 
 
 };
