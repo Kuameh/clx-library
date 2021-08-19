@@ -94,6 +94,7 @@ You can initialize the complex number with values. The first value is the real p
 | Division          | `/`    | Divides two more complex numbers.                                                                              |
 | Inverse/Conjugate | `--`   | Makes the conjugate of the given number.                                                                       |
 | Negator           | `-`    | Negates all the values of the complex number if they are positive, ie. multiplies the complex number with `-1` |
+| Equality/Comparision | `==` | Checks if to complexe numbers are equal ie. if `real` parts of both numbers are equal and if both `imaginary` parts of the numbers are equal. Returns `true` if both complex numbers are eqaul and `false` otherwise. |
 
 ## Usage/Examples
 
