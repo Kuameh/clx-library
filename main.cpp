@@ -37,7 +37,7 @@
     // Add conjugate operator
 
 #include "complex.h"
-// #include <iostream>
+#include <iostream>
 // #include <string>
 
 
@@ -54,7 +54,7 @@ int main() {
     // ans.print("std");
     // std::cout << z.get_mod();
 
-    (--z).print("std");
+    std::cout << (z==z) << std::endl;
     (-z).print("std");
     (z - (--z)).print("std");
 
@@ -67,3 +67,20 @@ int main() {
 	return 0;
 }
 //0543913286
+
+// #include "complex.h"
+
+// int main() {
+//     complex z(5.0,4.0);
+//     complex w(1.0,1.0);
+//     complex ans;
+
+//     ans = z + w;
+    
+//     ans.print();
+//     ans.print("std");
+//     ans.print("polr");
+
+
+//  return 0;
+// }
