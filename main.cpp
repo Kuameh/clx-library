@@ -67,3 +67,20 @@ int main() {
 	return 0;
 }
 //0543913286
+
+// #include "complex.h"
+
+// int main() {
+//     complex z(5.0,4.0);
+//     complex w(1.0,1.0);
+//     complex ans;
+
+//     ans = z + w;
+    
+//     ans.print();
+//     ans.print("std");
+//     ans.print("polr");
+
+
+//  return 0;
+// }
