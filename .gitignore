@@ -34,3 +34,7 @@
 # Editor folders
 /.vscode
 /.idea
+
+# Test files
+test?*.cpp
+test?*.exe
