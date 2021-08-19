@@ -32,5 +32,5 @@
 *.app
 
 # Editor folders
-/?vscode/
-/?idea/
+/.vscode
+/.idea
