@@ -45,7 +45,7 @@ class complex{
         complex operator +(complex c);
 
         // Conjugate operator: returns the conjugat of a complex number
-        complex operator --();
+        complex operator ~();
 
         // Negator
         complex operator -();
