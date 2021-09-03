@@ -60,6 +60,4 @@ class complex{
 
         // Comparision operator
         bool operator ==(complex c);
-
-
 };
