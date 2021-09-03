@@ -52,7 +52,7 @@
     }
 
     // Conjugate operator: returns the conjugate of a complex number
-    complex complex::operator --(){
+    complex complex::operator ~(){
         complex temp;
         
         temp.real = real;
